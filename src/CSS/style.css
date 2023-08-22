@@ -1,9 +1,58 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
+/*Menu e Footer*/
+.logo figure {
+    padding: 0px;
 }
+
+.logo img {
+    width: 148px;
+    padding: 10px;
+}
+
+.menu ul{
+    list-style-type: none; 
+    /**removes the bullets. A navigation bar does not need list markers**/
+    overflow: hidden;
+    position: -webkit-sticky; /**Safari**/
+    position: sticky; /**create a sticky navbar**/
+    top: 0;
+    text-align: center;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    background-color: #F2D8D8;
+}
+
+.rodape{
+    background-color: #F2D8D8;
+    padding: 30px 40px 30px 40px;
+    text-align: center;
+}
+
+.dados{
+    display: inline-block;
+    padding-inline: 150px;
+}
+
+.direitos{
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+    list-style-type: none; 
+}
+
+
+/* Página de Recados*/
 body{
     display: flex;
     align-items: center;
@@ -107,3 +156,4 @@ form button:hover{
 .main {
     background-color: #D8D8D8;
 }
+
