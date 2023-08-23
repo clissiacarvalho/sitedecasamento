@@ -1,11 +1,18 @@
 /*Menu e Footer*/
-.logo figure {
-    padding: 0px;
+.logo img {
+    width: 130px;
+    padding: 0px 16px;
 }
 
-.logo img {
-    width: 148px;
-    padding: 10px;
+.header_geral{
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+
+.sigla_casal {
+    padding: 40px 16px;
 }
 
 .menu ul{
@@ -14,7 +21,6 @@
     overflow: hidden;
     position: -webkit-sticky; /**Safari**/
     position: sticky; /**create a sticky navbar**/
-    top: 0;
     text-align: center;
 }
 
@@ -26,7 +32,8 @@
     display: block;
     color: black;
     text-align: center;
-    padding: 20px 16px;
+    padding: 30px 16px;
+    margin: 5px;
     text-decoration: none;
 }
 
@@ -53,14 +60,14 @@
 
 
 /* Página de Recados*/
-body{
+.body_recadonoivos {
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
     background: #D8D8D8 ;
 }
-section{
+.section_recadonoivos {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -70,22 +77,22 @@ section{
     width: 500px;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
-section h2{     
+.section_recadonoivos h2{     
     color: white;
     font-size: 2.5rem;
     margin: 2rem;
 }
-section form{
+.section_recadonoivos form{
     display: flex;
     flex-direction: column;
     width: 100%;
 }
-form label{
+.form_recadonoivos label{
     color: #f5f5f5;
     font-size: 17px;
     margin-bottom: 4px;
 }
-form input{
+.form_recadonoivos input{
     padding: 15px;
     outline: none;
     border: 0;
@@ -93,10 +100,10 @@ form input{
     font-size: 15px;
     transition: all 0.5s;
 }
-form input:focus{
+.form_recadonoivos input:focus{
     border-radius: 16px;
 }
-form textarea{
+.form_recadonoivos textarea{
     padding: 10px;
     outline: none;
     border: 0;
@@ -104,10 +111,10 @@ form textarea{
     margin-bottom: 30px;
     transition: all 0.5s;
 }
-form textarea:focus{
+.form_recadonoivos textarea:focus{
     border-radius: 16px;
 }
-form button{
+.form_recadonoivos button{
     padding: 15px;
     cursor: pointer;
     font-size: 16px;
@@ -117,15 +124,14 @@ form button{
     transition: all 1s;
     margin-bottom: 20px;
 }
-form button:hover{
+.form_recadonoivos button:hover{
     background: #f5f5f5;
     color: #101026;
     border-radius: 16px;
 }
 
 /*Página do Obrigado*/
-
-.main{
+.main_obrigado{
    display: flex;
    align-items: center;
    justify-content: center;
@@ -153,7 +159,22 @@ form button:hover{
 .btn:hover{
     border-radius: 16px;
 }
-.main {
+.main_obrigado {
     background-color: #D8D8D8;
 }
 
+/*Página Sobre o Casal*/
+.casal_capa img {
+    width: 100%;
+    height: 450px;
+}
+
+.text_sobreosnoivos {
+    text-align: center;
+    margin: 40px;
+}
+
+.text_sobreosnoivos h2 {
+    padding: 40px;
+}
+si
