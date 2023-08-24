@@ -41,6 +41,7 @@
     background-color: #F2D8D8;
 }
 
+
 .rodape{
     background-color: #F2D8D8;
     padding: 30px 40px 30px 40px;
@@ -60,12 +61,12 @@
 
 
 /* Página de Recados*/
-.body_recadonoivos {
+.main_recadosnoivos {
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #D8D8D8 ;
+    background: #D8D8D8;
 }
 .section_recadonoivos {
     display: flex;
@@ -177,4 +178,3 @@
 .text_sobreosnoivos h2 {
     padding: 40px;
 }
-si
