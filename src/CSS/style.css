@@ -167,7 +167,7 @@
 /*Página Sobre o Casal*/
 .casal_capa img {
     width: 100%;
-    height: 450px;
+    height: 600px;
 }
 
 .text_sobreosnoivos {
@@ -177,4 +177,37 @@
 
 .text_sobreosnoivos h2 {
     padding: 40px;
+}
+
+/*Página Home*/
+.contagem_regressiva h1 {
+    text-align: center;
+    margin: 40px;
+    }
+
+.contagem_regressiva p {
+    text-align: center;
+    margin: 40px;
+}
+
+.sobre_a_cerimonia h2 {
+    text-align: center;
+    margin: 40px; 
+}
+
+.sobre_a_cerimonia p {
+    text-align: center;
+    margin: 40px;
+}
+
+.casal_capa img {
+    width: 100%;
+    height: 600px;
+}
+
+.mapa iframe {
+   width: 100%; 
+   height: 450px;
+   box-shadow: 0 0 3px #999;
+
 }
