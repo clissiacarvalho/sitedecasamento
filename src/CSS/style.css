@@ -58,6 +58,62 @@
     text-align: center;
     list-style-type: none; 
 }
+/* Página de Confirmação de Presença */
+.main-presenca {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #D8D8D8;
+    flex-direction: column;
+}
+
+.main-presenca h1 {
+    color: white;
+    font-size: 2.5rem;
+    margin: 2rem;
+}
+
+.main-presenca form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.main-presenca label {
+    color: #f5f5f5;
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+
+.main-presenca input, .main-presenca select {
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+
+.main-presenca input:focus, .main-presenca select:focus {
+    border-radius: 16px;
+}
+
+.main-presenca input[type="submit"] {
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid #f5f5f5;
+    color: #f5f5f5;
+    transition: all 1s;
+}
+
+.main-presenca input[type="submit"]:hover {
+    background: #f5f5f5;
+    color: #101026;
+    border-radius: 16px;
+}
 
 
 /* Página de Recados*/
