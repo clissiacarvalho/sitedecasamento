@@ -1,0 +1,269 @@
+/*Menu e Footer*/
+.logo img {
+    width: 130px;
+    padding: 0px 16px;
+}
+
+.header_geral{
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+
+.sigla_casal {
+    padding: 40px 16px;
+}
+
+.menu ul{
+    list-style-type: none; 
+    /**removes the bullets. A navigation bar does not need list markers**/
+    overflow: hidden;
+    position: -webkit-sticky; /**Safari**/
+    position: sticky; /**create a sticky navbar**/
+    text-align: center;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 30px 16px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    background-color: #F2D8D8;
+}
+
+
+.rodape{
+    background-color: #F2D8D8;
+    padding: 30px 40px 30px 40px;
+    text-align: center;
+}
+
+.dados{
+    display: inline-block;
+    padding-inline: 150px;
+}
+
+.direitos{
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+    list-style-type: none; 
+}
+/* Página de Confirmação de Presença */
+.main-presenca {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #D8D8D8;
+    flex-direction: column;
+}
+
+.main-presenca h1 {
+    color: white;
+    font-size: 2.5rem;
+    margin: 2rem;
+}
+
+.main-presenca form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.main-presenca label {
+    color: #f5f5f5;
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+
+.main-presenca input, .main-presenca select {
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+
+.main-presenca input:focus, .main-presenca select:focus {
+    border-radius: 16px;
+}
+
+.main-presenca input[type="submit"] {
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid #f5f5f5;
+    color: #f5f5f5;
+    transition: all 1s;
+}
+
+.main-presenca input[type="submit"]:hover {
+    background: #f5f5f5;
+    color: #101026;
+    border-radius: 16px;
+}
+
+
+/* Página de Recados*/
+.main_recadosnoivos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #D8D8D8;
+}
+.section_recadonoivos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    background: #F2D8D8;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.section_recadonoivos h2{     
+    color: white;
+    font-size: 2.5rem;
+    margin: 2rem;
+}
+.section_recadonoivos form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.form_recadonoivos label{
+    color: #f5f5f5;
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+.form_recadonoivos input{
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+.form_recadonoivos input:focus{
+    border-radius: 16px;
+}
+.form_recadonoivos textarea{
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+}
+.form_recadonoivos textarea:focus{
+    border-radius: 16px;
+}
+.form_recadonoivos button{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid #f5f5f5;
+    color: #f5f5f5;
+    transition: all 1s;
+    margin-bottom: 20px;
+}
+.form_recadonoivos button:hover{
+    background: #f5f5f5;
+    color: #101026;
+    border-radius: 16px;
+}
+
+/*Página do Obrigado*/
+.main_obrigado{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+   background: #F2D8D8;
+   flex-direction: column;
+}
+.text{
+    font-size: 45px;
+    color:blue;
+    margin-bottom: 30px;
+}
+.paragrafo{
+    color:blue;
+    margin-bottom: 50px;
+}
+.btn{
+    padding: 15px 55px;
+    background: blue;
+    text-decoration: none;
+    color: #101026;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+.btn:hover{
+    border-radius: 16px;
+}
+.main_obrigado {
+    background-color: #D8D8D8;
+}
+
+/*Página Sobre o Casal*/
+.casal_capa img {
+    width: 100%;
+    height: 600px;
+}
+
+.text_sobreosnoivos {
+    text-align: center;
+    margin: 40px;
+}
+
+.text_sobreosnoivos h2 {
+    padding: 40px;
+}
+
+/*Página Home*/
+.contagem_regressiva h1 {
+    text-align: center;
+    margin: 40px;
+    }
+
+.contagem_regressiva p {
+    text-align: center;
+    margin: 40px;
+}
+
+.sobre_a_cerimonia h2 {
+    text-align: center;
+    margin: 40px; 
+}
+
+.sobre_a_cerimonia p {
+    text-align: center;
+    margin: 40px;
+}
+
+.casal_capa img {
+    width: 100%;
+    height: 600px;
+}
+
+.mapa iframe {
+   width: 100%; 
+   height: 450px;
+   box-shadow: 0 0 3px #999;
+
+}
