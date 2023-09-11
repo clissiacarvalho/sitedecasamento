@@ -35,14 +35,10 @@ body {
     margin: 40px;
     }
 
-.contato h1  {
-    text-align: center;
-    margin: 40px;
-    }
-
 section{
     border-radius: 20px;
     box-shadow: 2px 2px 15px #888888;
     margin: 1em;
     padding: 1em;
 }
+
