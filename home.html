@@ -3,78 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/CSS/reset.css">
+    <link rel="stylesheet" href="/src/CSS/style.css">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v6.4.2/css/all.css">
+    <title>Home | Nosso Casamento</title>
 </head>
-<body>
-    <header>
-        <div id="title">
-<h1>Nosso Casamento</h1>
-<main>
-<section>
-
-<figure>
-    <img src="src/img/Rectangle 18.png" alt="foto_casal">
-</figure>
-<nav>
-<ul>
-    <a href="home.html"><li>Home</li></a>
-    <a href="presenca.html"><li>Presença</li></a>
-    <a href="lista_presentes"><li>Presentes</li></a>
-    <a href="sobreocasal.html"><li>Sobre o casal</li></a>
-    <a href="blog.html"><li>Blog</li></a>
-</ul>
-
+<body class="body_home">
+    <header class="header_geral">
+        <div class="logo">
+            <figure>
+                <img src="src/img/logo.png" alt="logo">
+            </figure>
         </div>
-    </main>
-        </section>
-        <section>
-            <main>
-<h1> Recados para os Noivos</h1>
-<p></p>Os melhores noivos da história! Ver vocês celebrarem o amor de vocês com o casamento é um motivo de muito emoção. Sei muito bem o quanto se amam, o quanto se cuidam, o quão fantásticos são os dois juntos. Vocês se merecem. Vocês são únicos.Agora começará uma nova etapa na vida de vocês e envio os meus maiores desejos de que seja só o começo de uma fase linda. Que o amor de vocês sempre se renove, que o companheirismo se mantenha e que cresçam muito juntos. Há alguns casais que representam o amor na sua essência. Parece que, quando olhamos para eles, estamos vendo o amor na sua mais pura forma. Meus noivos amados, vocês são um desses casais. Sinto cheiro de amor só de vê-los juntos.
-
-Meu coração está em festa por vê-los escolhendo o casamento como forma de formalizar a beleza desse amor. Que sejam sempre um eterno casal apaixonado.
-</p>
-    <h4> Madrinha: Maria Clara </h4>
-            </main>
-        </section>
-
-        <section> 
-            <main>
-                <br/>
-
-
-
-                <h1><strong>Contagem Regressiva</strong></h1>
-<p> Faltam 1029 dias para o grande dia!!!!
-
-</p>
-                <br/>
-
-            </main>
-        </section>
-
-        <section>
-        
-            <main>
-                <h1><strong>Sobre a Cerimônia</h1></strong>
-        
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam est, cum incidunt minima reprehenderit quo laudantium omnis repellat neque provident praesentium perspiciatis reiciendis minus quis, et, voluptatibus totam saepe consectetur.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae aliquid sapiente dolor expedita amet possimus tempora, fuga vitae doloribus ea ad maiores ipsa impedit repellendus cupiditate minus nam. Soluta, cum?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, ipsa! Odit distinctio praesentium illum velit nisi nesciunt facere aliquid repellat, esse voluptatibus. Tempora officia ipsam odio eum veniam eveniet corrupti?</p>
-            </main>
-        </section>
-
+        <nav class="menu"><a name="topo"></a>
+            <ul>
+                <li><a href="/home.html">home</a></li>
+                <li><a href="/presenca.html">presença</a></li>
+                <li><a href="/lista_presentes.html">presentes</a></li>
+                <li><a href="/sobreocasal.html">sobre o casal</a></li>
+                <li><a href="/recadonoivos.html">recados para os noivos</a></li>
+                <li><a href="/blog.html">blog</a></li>
+            </ul>
+        </nav>
+        <span class="sigla_casal">H + C</span>
     </header>
+        <main class="main-home">
+            <figure class="casal_capa">
+                <img src="/src/img/Rectangle 18.png" alt="um casal de mãos dadas">
+            </figure>
+
+            <section class="contagem_regressiva">
+            
+                <h1><strong>Contagem Regressiva</strong></h1>
+                <p> Faltam 1029 dias para o grande dia!!!!</p>
+
+            </section>
+
+            <section class="sobre_a_cerimonia">
+                    
+                <h2><strong>Sobre a Cerimônia</h2></strong>
+                
+                <p>Não se esqueça ein... o casamento é dia 30 de agosto de 2025 às 10h00. A cerimônia será na Paróquia Nossa Senhora do Brasil. Aqui embaixo você encontra o mapinha que te leva até lá.</p>
+            </section>
+
+            <section class="mapa">
+
+                <iframe src="https://www.google.com/maps/d/embed?mid=1qIMFgwfQvq_aaD7XYjUcwsZVP7c&hl=en_US&ehbc=2E312F" ></iframe>
+
+            </section>
+
+        </main>
+        <footer class="footer">
+            <section class="rodape">
+                <div class="dados">
+                    <span>Contato</span>
+                    <ul>
+                        <i class="fa-regular fa-envelope" style="color: #0c0d0d;"></i>
+                        <i class="fa-brands fa-whatsapp" style="color: #0c0d0d;"></i>                    
+                    </ul>
+                </div>
+                <div class="dados">
+                    <span>Redes Sociais</span>
+                    <ul>
+                        <i class="fa-brands fa-instagram" style="color: #0c0d0d;"></i>
+                        <i class="fa-brands fa-linkedin" style="color: #0c0d0e;"></i>
+                        <i class="fa-brands fa-tiktok" style="color: #0a0a0b;"></i>
+                    </ul>
+                </div>
+        </section>
+        <section class="direitos">
+            <a href="#topo">Voltar ao topo ↑</a>
+            <p>2023 ® Nosso Casamento</p>
+        </section>
+        </footer>
 </body>
 </html>
-
-<footer>
-    
-    <ul>
-        <li>Instagram</li>
-        <li>Facebook</li>
-        <li>Nossos contatos</li>
-    </ul>
-    
-    2023 ® Nosso Casamento
-
- <li><a href="#topo">Voltar ao topo ↑</a></li>
-</footer>

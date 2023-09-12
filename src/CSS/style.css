@@ -15,7 +15,7 @@
     padding: 40px 16px;
 }
 
-.menu ul{
+.menu ul {
     list-style-type: none; 
     /**removes the bullets. A navigation bar does not need list markers**/
     overflow: hidden;
@@ -24,11 +24,11 @@
     text-align: center;
 }
 
-.menu li{
+.menu li {
     display: inline-block;
 }
 
-.menu li a{
+.menu li a {
     display: block;
     color: black;
     text-align: center;
@@ -37,26 +37,88 @@
     text-decoration: none;
 }
 
-.menu li a:hover{
+.menu li a:hover {
     background-color: #F2D8D8;
 }
 
-
-.rodape{
+.rodape {
     background-color: #F2D8D8;
     padding: 30px 40px 30px 40px;
     text-align: center;
 }
 
-.dados{
+.dados {
     display: inline-block;
     padding-inline: 150px;
 }
 
-.direitos{
+.direitos {
     margin: 10px 0px 10px 0px;
     text-align: center;
     list-style-type: none; 
+    text-decoration: none;
+    color: black;
+}
+
+a { 
+    color: inherit; 
+} 
+
+/* Página de Confirmação de Presença */
+.main-presenca {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #D8D8D8;
+    flex-direction: column;
+}
+
+.main-presenca h1 {
+    color: white;
+    font-size: 2.5rem;
+    margin: 2rem;
+}
+
+.main-presenca form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.main-presenca label {
+    color: #f5f5f5;
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+
+.main-presenca input, .main-presenca select {
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+
+.main-presenca input:focus, .main-presenca select:focus {
+    border-radius: 16px;
+}
+
+.main-presenca input[type="submit"] {
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid #f5f5f5;
+    color: #f5f5f5;
+    transition: all 1s;
+}
+
+.main-presenca input[type="submit"]:hover {
+    background: #f5f5f5;
+    color: #101026;
+    border-radius: 16px;
 }
 
 
@@ -170,6 +232,11 @@
     height: 600px;
 }
 
+.h2-sobrecasal1 {
+    padding: 20px;
+    text-align: center;
+}
+
 .text_sobreosnoivos {
     text-align: center;
     margin: 40px;
@@ -177,6 +244,54 @@
 
 .text_sobreosnoivos h2 {
     padding: 40px;
+}
+
+.p-sobrecasal {
+    margin: 0px 200px 0px 200px;
+}
+
+.h2-sobrecasal2 {
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.gallery-sobrecasal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1vw;
+    padding:  0 5vw;
+}
+
+.gallery-items-sc {
+    width: 340px;
+    height: 300px;
+    border: 10px solid #f5f5f5;
+    box-shadow: 5px 5px 5px #0006;
+    flex-grow: 1px;
+    filter: grayscale(100%);
+    transition: transform  0.5s linear;
+}
+
+.gallery-items-sc img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery-items-sc:hover {
+    transform: scale(1.3);
+    filter: none;
+}
+
+.h2-sobrecasal3 {
+    padding: 60px 0px 30px 0px;
+    text-align: center;
+}
+
+.playlist-sobrecasal {
+    padding: 0px 500px 0px 500px;
+    margin-bottom: 30px;
 }
 
 /*Página Home*/
@@ -210,4 +325,46 @@
    height: 450px;
    box-shadow: 0 0 3px #999;
 
+}
+
+/*Blog*/
+.body-blog {
+    background-color: gray;
+  }
+
+.posts h1 {
+    text-align: center;
+    margin: 40px;
+    }
+
+.posts p {
+    text-align: center;
+    margin: 40px;
+    }
+
+.sobre h1 {
+    text-align: center;
+    margin: 40px;
+    }
+
+.sobre p {
+    text-align: center;
+    margin: 40px;
+    }
+
+.contato h1  {
+    text-align: center;
+    margin: 40px;
+    }
+
+.contato   {
+    text-align: center;
+    margin: 40px;
+    }
+
+.posts, .sobre, .contato{
+    border-radius: 20px;
+    box-shadow: 2px 2px 15px #888888;
+    margin: 1em;
+    padding: 1em;
 }
