@@ -70,8 +70,11 @@ a {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #D8D8D8;
+    background: #F2D8D8;
     flex-direction: column;
+    padding: 10px 45px;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 .main-presenca h1 {
@@ -87,7 +90,7 @@ a {
 }
 
 .main-presenca label {
-    color: #F2D8D8;
+    color: #f5f5f5;
     font-size: 17px;
     margin-bottom: 4px;
 }
@@ -116,7 +119,7 @@ a {
 }
 
 .main-presenca input[type="submit"]:hover {
-    background: #f2d8d8;
+    background: #f5f5f5;
     color: #101026;
     border-radius: 16px;
 }
