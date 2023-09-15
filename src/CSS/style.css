@@ -368,3 +368,103 @@ a {
     margin: 1em;
     padding: 1em;
 }
+
+/* Lista de Presentes */
+/* Cabeçalho */
+header {
+    color: #040D12;
+    padding: 2px;
+    text-align: center;      
+}
+
+/* Grid de Produtos */
+.lista-container {
+    background-color: #FFF6F4;
+    min-height: 60vh;
+    padding: 50px;
+    text-align: center;
+}
+
+.lista-products-container {
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+.lista-card {
+    width: 40%;
+    text-align: center;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 15px;
+    align-items: center; 
+}
+    
+
+.lista-card:hover {
+    background-color: #fff;
+    box-shadow: 1px 1px;  
+}
+
+.lista-product-image {
+    
+    height: 300px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;  
+}
+
+
+h3 {
+    margin-bottom: 10px;
+    color: #040D12;
+    text-align: center;
+    padding-left: 7px;
+    font-size: 24px;
+}
+
+.lista-card p {
+    margin-bottom: 10px;
+    text-align: center;
+    align-items: center;  
+}
+
+.lista-bold {
+    font-weight: bold;
+}
+
+.lista-btn {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #ED7B7B;
+    color: #fff;
+    padding: 17px 7px;
+    border-radius: 25px;
+    transition: 0.5s; 
+}
+
+.lista-btn:hover {
+    background-color: grey;
+    box-shadow: 3px 3px #867070;
+}
+
+.lista-btn-top {
+    background-color: #fff;
+     transition: 0.5s;
+     color: black;
+     text-decoration: none;
+     border: 12px;
+     border-radius: 90px;
+     float: right;
+     padding: 10px;
+}
+
+.lista-btn-top:hover {
+    background-color: green;
+    color: #fff;   
+}
