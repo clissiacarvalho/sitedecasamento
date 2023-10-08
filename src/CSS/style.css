@@ -325,9 +325,37 @@ a {
 .mapa iframe {
    width: 100%; 
    height: 450px;
-   box-shadow: 0 0 3px #999;
+   box-shadow: 0, 0, 3px, #999;
 
 }
+
+.countdown {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    color: rgb(20, 20, 20);
+    gap: 5px;
+    margin: 40px;
+}
+
+.tittle {
+    grid-column: 4 span;
+    text-align: center;
+    font-size: 22px;
+    margin: 10px;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+.value {
+    font-size: 30px;
+    font-weight: 700;
+}
+
 
 /*Blog*/
 .body-blog {
