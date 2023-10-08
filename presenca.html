@@ -56,7 +56,26 @@
                 <input type="email" id="email" name="email" required><br>
                 
                 <input type="submit" value="Enviar">
-            </form>        
+            </form>      
+            <script>document.querySelector('form').addEventListener('submit', function(event) {
+                event.preventDefault();
+            
+                var nome = document.getElementById('nome').value;
+                var email = document.getElementById('email').value;
+            
+                if(nome === '') {
+                    alert('Por favor, preencha o campo nome.');
+                    return false;
+                }
+            
+                if(email === '') {
+                    alert('Por favor, preencha o campo email.');
+                    return false;
+                }
+            
+                event.target.submit();
+            });
+            </script>  
         </main>
         <footer class="footer">
             <section class="rodape">
