@@ -66,11 +66,13 @@ a {
 
 /* Página de Confirmação de Presença */
 .main-presenca {
+    position: relative;
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #F2D8D8;
+    background: #828AAB;
     flex-direction: column;
     padding: 10px 45px;
     width: 500px;
