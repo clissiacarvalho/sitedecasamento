@@ -208,16 +208,16 @@ a {
 }
 .text{
     font-size: 45px;
-    color:blue;
+    color:#828aab;
     margin-bottom: 30px;
 }
 .paragrafo{
-    color:blue;
+    color:black;
     margin-bottom: 50px;
 }
 .btn{
     padding: 15px 55px;
-    background: blue;
+    background: #828aab;
     text-decoration: none;
     color: #101026;
     font-size: 18px;
