@@ -320,8 +320,8 @@ a {
 }
 
 .casal_capa img {
-    width: 100%;
-    height: 600px;
+    max-width: 100%;
+    height: auto;
 }
 
 .mapa iframe {
@@ -511,7 +511,7 @@ header {
 
 /* Grid de Produtos */
 .lista-container {
-    background-color: #;
+    background-color: white;
     min-height: 60vh;
     padding: 50px;
     text-align: center;
@@ -608,3 +608,9 @@ h3 {
     background-color: green;
     color: #fff;   
 }
+
+@media screen and (max-width: 600px) {
+    body {
+      background-color: white;
+    }
+  }
