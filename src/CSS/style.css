@@ -405,6 +405,27 @@ a {
     
 }
 
+.post001 h1 {
+    text-align: center;
+    margin: 40px;
+    }
+.post001 p {
+    text-align: center;
+    margin: 40px;
+    }
+
+.post001{
+    background-color: #828AAB;
+    border-radius: 20px;
+    box-shadow: 2px 2px 15px #888888;
+    margin: 1em;
+    padding: 1em;
+    max-width: 1000px;
+    margin: auto;
+    
+}
+
+
 /*style do slide*/
 * {box-sizing:border-box}
 
