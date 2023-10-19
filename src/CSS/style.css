@@ -322,6 +322,7 @@ a {
 .casal_capa img {
     max-width: 100%;
     height: auto;
+    text-align: center;
 }
 
 .mapa iframe {
