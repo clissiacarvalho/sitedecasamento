@@ -41,16 +41,18 @@
                 
                 <label for="convidado">Levará um convidado?</label>
                 <select id="convidado" name="convidado">
+                    <option value="" disabled selected hidden>Selecione uma opção</option>
                     <option value="0">Nenhum</option>
                     <option value="1">Um</option>
                     <option value="2">Dois</option>
                 </select><br>
                 
                 <label for="confirmacao">Confirma sua presença?</label>
-                <input type="radio" id="sim" name="confirmacao" value="sim" required>
-                <label for="sim">Sim</label>
-                <input type="radio" id="nao" name="confirmacao" value="nao" required>
-                <label for="nao">Não</label><br>
+                <select id="confirmacao" name="confirmacao">
+                    <option value="" disabled selected hidden>Selecione uma opção</option>
+                    <option value="sim">Sim</option>
+                    <option value="nao">Não</option>
+                </select><br>
                 
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required><br>
